@@ -1,0 +1,24 @@
+---
+import Hamburger from './Hamburger.astro'
+import Navigation from './Navigation.astro'
+
+const navLinks = [
+  {
+    path: '/',
+    label: 'Home'
+  },
+  {
+    path: '/about',
+    label: 'About'
+  },
+  {
+    path: '/blog',
+    label: 'BLog'
+  }
+]
+---
+
+<header>
+  <Hamburger navLinks={navLinks} />
+  <Navigation navLinks={navLinks}/>
+</header>
