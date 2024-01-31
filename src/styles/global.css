@@ -61,6 +61,30 @@ h1 {
   display: unset;
 }
 
+.blog-card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-card {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.blog-card-image {
+  width: 50%;
+  height: auto;
+}
+
+.blog-card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
